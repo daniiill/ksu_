@@ -1,0 +1,95 @@
+html {
+    /* background: black; */
+    background: url(/for_ksu/background.png);
+    min-height: 100%;
+    background-size: cover;
+}
+
+body{
+    /* background: black; */
+    text-align: center;
+  }
+
+small {
+    font-family: 'Akzidenz-Grotesk Pro'; 
+    font-size: 16px;
+    background: linear-gradient(90deg, rgba(231, 255, 174, 0.5) 0.25%,rgba(255, 248, 150, 0.93) 51.75%,rgba(231, 255, 174, 0.5) 100%);
+    display: inline-block;
+    letter-spacing: 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px; padding-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Akzidenz-Grotesk Pro'; 
+    font-size: 35px;
+    background: linear-gradient(90deg, rgba(255, 171, 171, 0.5) 0.25%,rgba(255, 171, 171, 0.93) 51.75%,rgba(255, 171, 171, 0.5) 100%);
+    display: inline-block;
+    letter-spacing: 3px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Akzidenz-Grotesk Pro'; 
+    font-size: 35px;
+    background: linear-gradient(90deg, rgba(255, 171, 171, 0.5) 0.25%,rgba(255, 171, 171, 0.93) 51.75%,rgba(255, 171, 171, 0.5) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+
+p { 
+    font-family: 'Akzidenz-Grotesk Pro'; 
+    font-size: 25px;
+    background: linear-gradient(90deg, rgba(255, 171, 171, 0.5) 0%,rgba(255, 234, 160, 0.95) 51.56%, rgba(122, 231, 255, 0.5) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 5px;
+    margin: 0px;
+}
+
+.icons {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icons a {
+    margin: 0px 5px;
+}
+
+.icons a img {
+    opacity: 0.5;
+}
+
+.icons a:hover img {
+    opacity: 0.7;
+    transform: scale(1.08);
+    transition: 0.4s;
+}
+
+.container {
+    margin: 15% 0px;
+  }
+
+@media screen and (max-width: 1280px) { div.container {width: 1200px;} } 
+@media screen and (max-width: 1140px) { div.container {width: 1024px;} } 
+@media screen and (max-width: 992px) { div.container {width: 970px;} }
+
+@font-face {
+    /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
+    font-family: 'Akzidenz-Grotesk Pro'; 
+    /* // адрес шрифта и тип  */
+    src: url("/for_ksu/AkzidenzGroteskPro-Bold.ttf") format("truetype"); 
+    font-style: bold; 
+    font-weight: normal; 
+    } 
