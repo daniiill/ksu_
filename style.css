@@ -1,6 +1,6 @@
 html {
     /* background: black; */
-    background: url(/for_ksu/background.png);
+    background: url(background.png);
     min-height: 100%;
     background-size: cover;
 }
@@ -89,7 +89,7 @@ p {
     /* // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)  */
     font-family: 'Akzidenz-Grotesk Pro'; 
     /* // адрес шрифта и тип  */
-    src: url("/for_ksu/AkzidenzGroteskPro-Bold.ttf") format("truetype"); 
+    src: url("AkzidenzGroteskPro-Bold.ttf") format("truetype"); 
     font-style: bold; 
     font-weight: normal; 
     } 
